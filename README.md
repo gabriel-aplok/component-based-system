@@ -13,13 +13,13 @@ Codificado em Java puro, não necessariamente utilizado no framework Android, ma
 Criado por Gabriel Lima Bezerra com o objetivo de aprender desenvolvimento back-end por trás de grandes engines de jogos como Unity, Unreal e Godot e utilizar esses recursos em seus projetos pessoais como na Kolpa Engine.
 
 ### Mundo
-A classe World é o container principal que contém a lista de todos os objetos de jogo e sistemas. Ela é responsável por chamar os métodos update() de cada objeto de jogo e sistema em cada frame da cena.
+A classe `World` é o container principal que contém a lista de todos os objetos de jogo e sistemas. Ela é responsável por chamar os métodos update() de cada objeto de jogo e sistema em cada frame da cena.
 
 ### Sistema
-A classe System é responsável por processar a lógica de jogo específica e tem acesso à lista de objetos de jogo através da classe World.
+A classe `System` é responsável por processar a lógica de jogo específica e tem acesso à lista de objetos de jogo através da classe World.
 
 ### Entidade
-A classe GameObject mantém uma lista de componentes e é responsável por atualizá-los.
+A classe `GameObject` mantém uma lista de componentes e é responsável por atualizá-los.
 
 ### Componente
-A classe Component é a classe base para todos os componentes e contém uma referência ao objeto de jogo que o contém.
+A classe `Component` é a classe base para todos os componentes e contém uma referência ao objeto de jogo que o contém.
